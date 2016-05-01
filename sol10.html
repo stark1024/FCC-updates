@@ -1,5 +1,20 @@
+<script src="jquery-1.12.0.min.js">
+  $(document).ready(function(){
+    $("#play").click(function(){
+      $(this).toggleClass("magic");
+    });
+  });
+</script>
 <style>
-  .jumbotron {
+  
+  body{
+    background-image: url("http://img0.mxstatic.com/wallpapers/6cd5db57e9ea92cd7dbafc4e3eeaeb72_large.jpeg");
+    background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  }
+  .container-fluid {
     margin-left: 5%;
     margin-right: 5%;
   }
@@ -7,14 +22,21 @@
     margin-left: 1%;
     margin-right: 1%;
     text-align: center;
-    
+  }
+  .magic {
+    background-color: #000000;
+  }
+  footer p{
+    text-align: center;
   }
 </style>
 <div>
   <h1 class="text-center text-primary">Steve Jobs</h1>
+  <h4 class="text-center text-info">Man with Innovation & Insight</h4>
 </div>
-<body background-color="red">
-  <div class="jumbotron">
+<body>
+   <div class="container-fluid" id="play">
+     <br></br>
     <p class="intro">
       Steven Paul "Steve" Jobs (/ˈdʒɒbz/; February 24, 1955 – October 5, 2011) was an American information technology entrepreneur and inventor. He was the co-founder, chairman, and chief executive officer (CEO) of Apple Inc.; CEO and largest shareholder of Pixar Animation Studios; a member of The Walt Disney Company's board of directors following its acquisition of Pixar; and founder, chairman, and CEO of NeXT Inc. Jobs is widely recognized as a pioneer of the microcomputer revolution of the 1970s, along with Apple co-founder Steve Wozniak. Shortly after his death, Jobs's official biographer, Walter Isaacson, described him as a "creative entrepreneur whose passion for perfection and ferocious drive revolutionized six industries: personal computers, animated movies, music, phones, tablet computing, and digital publishing."
     </p>
@@ -23,3 +45,6 @@
     
   </div>
 </body>
+<footer class="bg-info">
+  <p>Thank you!</p>
+<footer>
