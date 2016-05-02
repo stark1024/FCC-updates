@@ -1,0 +1,31 @@
+ body{
+    background-image: url("http://img0.mxstatic.com/wallpapers/6cd5db57e9ea92cd7dbafc4e3eeaeb72_large.jpeg");
+    background-size: cover;
+  background-position: top center !important;
+  background-repeat: no-repeat !important;
+  background-attachment: fixed;
+  }
+  .container-fluid {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .intro {
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+  }
+  .magic {
+    background-color: #999999;
+    color: white;
+  }
+  footer {
+    width: 100%;
+    position: absolute;
+    bottom: 0.1em;
+  }
+#know{
+  text-align: left;
+}
+#rem{
+  text-align: right;
+}
