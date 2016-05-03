@@ -21,11 +21,19 @@
   footer {
     width: 100%;
     position: absolute;
-    bottom: 0.1em;
+    bottom: 0.1px;
   }
 #know{
   text-align: left;
 }
 #rem{
-  text-align: right;
+  text-align: left;
+}
+.row{
+  margin-left: 10px;
+}
+#image {
+  border-style: solid;
+  border-radius: 20%;
+  margin-left: 32.5%;
 }
