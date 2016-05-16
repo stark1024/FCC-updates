@@ -32,7 +32,7 @@ function lookUpProfile(firstName, prop){
 // Only change code below this line
   for(var i=0; i<contacts.length; i++){
     if(firstName == contacts[i].firstName){
-      for(var j in contacts){
+      for(var j in contacts[i]){
         if(prop == contacts[i][j]){
           return contacts[i].prop;
         } else
