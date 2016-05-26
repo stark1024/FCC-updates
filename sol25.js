@@ -1,16 +1,8 @@
 
 function palindrome(str) {
-  var k=0;
-  str.replace(/ /i, "");
-  for(var i=0; i<(str.length)/2; i++){
-    if(str[i].toLowerCase() != str[str.length-i-1].toLowerCase()){
-      k=1;
-    }
-  }
-  if(k===0){
-    return true;
-  }else
-    return false;
+  var nStr = str.replace(/[\W_]/g, '').toLowerCase();
+  var rStr = nStr.split('').reverse().join('');
+  return nStr === rStr;
 }
 
 
